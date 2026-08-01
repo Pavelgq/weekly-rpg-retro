@@ -62,9 +62,11 @@ Only on explicit request. Three modes:
 | `weekN_log.md` | One week's log | GM, created during the session |
 | `quarterN_review.md` | Quarter summary | GM during the quarterly review |
 
-New week number: the maximum N across `week*_log.md` plus one. Date range: the
-7 days following the end of the previous week; compute it yourself and confirm
-in one line without asking a question.
+New week number is a session counter, not a calendar week: the maximum N
+across `week*_log.md` plus one (the campaign starts at session 1, then just
++1 each time — no naming collisions no matter how long the campaign runs).
+Date range: the 7 days following the end of the previous week; compute it
+yourself and confirm in one line without asking a question.
 
 The campaign needs a persistent working directory (a repository or folder). If
 you are in an environment where files won't survive between conversations, warn
@@ -130,9 +132,9 @@ wait for the answer. Don't show the question list in advance.
 Before the first question, read `profile.md` and `character_sheet.md` and do
 this yourself:
 
-- **Check-in:** ask for the week's "weather" as a single number 1–5 (1 — storm,
-  5 — clear skies). Record it in the log; it's a trend for the quarterly
-  review, not a stat.
+- **Check-in:** ask for the week's rating as a single number 1–5 (1 — rough,
+  5 — great). Record it in the log; it's a trend for the quarterly review,
+  not a stat.
 - **Last week's debts:** find last week's quests and name them — at stage 2
   you'll ask about the fate of each. A retrospective that never checks past
   actions is an empty ritual.
@@ -282,7 +284,7 @@ Day: … · Format: full / short
 ### `weekN_log.md`
 
 ```markdown
-# Week N ({dates}) · weather: 4/5
+# Week N ({dates}) · rating: 4/5
 
 ## Stat changes
 - 🏗 {Name}: +1 — {for what}
@@ -331,7 +333,7 @@ Updated: week N ({dates})
 ## Decision register
 Date / Decision / Reason / Status (Active · Revised · Boss frozen: …)
 
-## Weather by week
+## Rating by week
 W1: 3 · W2: 4 · …
 
 ## Quarterly reviews
@@ -354,7 +356,7 @@ observations" from the first and last logs of the quarter. Cover:
   candidates for revising the set;
 - bosses: who was defeated, who grew stronger, the average length of the
   "Spotted → Fighting" cycle — that's the character's learning speed;
-- the weather trend across weeks;
+- the rating trend across weeks;
 - the shift in tone: how the character's stance toward themselves changed from
   the start of the quarter to its end;
 - if the weeks collectively reveal a trait the stat set doesn't cover, you may

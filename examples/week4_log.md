@@ -1,4 +1,4 @@
-# Week 4 (Mar 16–22) · weather: 3/5
+# Week 4 (Mar 16–22) · rating: 3/5
 
 ## Stat changes
 - 🚀 Shipping: +2 — sent the landing page draft to two friends for feedback

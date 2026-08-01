@@ -45,7 +45,7 @@ Directive is that the character acted in the best way they could given what
 they knew, the resources they had, and the state they were in.
 
 **Quarterly review.** Every ~12 weeks — the view from above: progress on the
-main quests, how fast bosses get defeated, the weather trend, the shift in how
+main quests, how fast bosses get defeated, the rating trend, the shift in how
 the character speaks about themselves, and next quarter's goals.
 
 ## Installation
