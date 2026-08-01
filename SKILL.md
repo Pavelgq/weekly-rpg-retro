@@ -58,7 +58,8 @@ Only on explicit request. Three modes:
 | File | Holds | Changed by |
 |---|---|---|
 | `profile.md` | Setting, goals, guiding values, the stat set, ritual preferences | Onboarding; afterwards only at the user's request |
-| `character_sheet.md` | Current stat values, bosses, achievements, decisions | GM after every session |
+| `character_sheet.md` | Current stat values, bosses, decisions | GM after every session |
+| `achievements.md` | Full achievement history, each with a one-line context, organized into meta-achievement tiers | GM after every session |
 | `weekN_log.md` | One week's log | GM, created during the session |
 | `quarterN_review.md` | Quarter summary | GM during the quarterly review |
 
@@ -181,10 +182,13 @@ Synthesize:
   and what could turn it around. Don't stretch: not every stat moves every
   week.
 - **Bosses**: stage and level changes per the rules below.
-- **Achievements**: for useful behavior changes. Names may be reused from
-  `character_sheet.md` when the situation rhymes with a past one. Then check
-  for meta-achievements (see "Achievements" below) — scan the full list for a
-  theme that now has 3 members and merge them.
+- **Achievements**: for useful behavior changes. Give each a name and a
+  one-line context (what happened) — record both in `achievements.md`, never
+  just the name, so future sessions can judge shared themes without rereading
+  old week logs. Names may be reused from `achievements.md` when the situation
+  rhymes with a past one. Then check for meta-achievements (see "Achievements"
+  below) — scan the full list for a theme that now has 3 members and merge
+  them.
 
 ### 4. Deciding what to do
 
@@ -203,8 +207,8 @@ If an important decision was made this week, record it in the decision register
 - The "GM's observation" — a short paragraph: what shifted in the character's
   stance toward themselves, not a recap of events; the session's observations
   synthesized into one thought.
-- Write `weekN_log.md` and update `character_sheet.md` **in the same turn** —
-  never leave them out of sync.
+- Write `weekN_log.md` and update `character_sheet.md` and `achievements.md`
+  **in the same turn** — never leave them out of sync.
 
 ---
 
@@ -244,9 +248,14 @@ while still showing growth at a glance, they consolidate into tiers:
   share a broader theme, merge them into a second-tier meta-achievement, and
   so on. Escalate the visual marker with each tier (🏆 → 🎖️ → 🌟 → 👑 …) so
   the growing scale reads at a glance.
-- **Display**: in `character_sheet.md`, keep every source achievement visible,
+- **Context**: every achievement and meta-achievement carries a one-line
+  context in `achievements.md` — for a meta-achievement, synthesize the shared
+  thread of its sources rather than just listing them.
+- **Display**: in `achievements.md`, keep every source achievement visible,
   nested under the meta-achievement that consumed it — nothing gets deleted,
-  it's just organized by scale.
+  it's just organized by scale. `character_sheet.md` only carries a one-line
+  pointer (latest achievement, total count) — the full history lives in
+  `achievements.md`.
 
 ---
 
@@ -369,8 +378,7 @@ Updated: week N ({dates})
 - 🐉 Name — weeks 3–9, final level 2
 
 ## Achievements
-- 🎖️ Meta name — tier 1 (merges: 🏆 Name A (week N), 🏆 Name B (week M), 🏆 Name C (week L))
-- 🏆 Name — week N (not yet part of a meta-achievement)
+See `achievements.md` (N total) · latest: 🏆 Name — week N
 
 ## Decision register
 Date / Decision / Reason / Status (Active · Revised · Boss frozen: …)
@@ -382,8 +390,21 @@ W1: 3 · W2: 4 · …
 - Review #1: weeks 1–13 → quarter1_review.md
 ```
 
-If `character_sheet.md` is missing but week logs exist, rebuild it from the
-logs (sum the deltas, collect bosses and achievements) before the session.
+### `achievements.md`
+
+```markdown
+# Achievements: {campaign}
+
+## 🎖️ Meta name — tier 1 (merges: 🏆 Name A (week N), 🏆 Name B (week M), 🏆 Name C (week L))
+Context: the shared thread across the three sources, in one line.
+
+## 🏆 Name — week N
+Context: what happened, in one line.
+```
+
+If `character_sheet.md` or `achievements.md` is missing but week logs exist,
+rebuild them from the logs (sum the deltas, collect bosses and achievements
+with context) before the session.
 
 ---
 
