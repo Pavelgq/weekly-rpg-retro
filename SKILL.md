@@ -97,9 +97,17 @@ anti-goals (what they refuse to sacrifice for the quests — sleep, relationship
 health…), what kind of person they want to be by the end of the campaign
 regardless of how the quests turn out.
 
-**Block 4. Known adversaries.** Which recurring difficulties are already
-familiar (procrastination, doomscrolling, "can't say no"…). Register each as a
-starting boss at the "Spotted" stage (see below) — level 1, week 0.
+**Block 4. Known adversaries.** First, ask what to call this recurring-difficulty
+entity — "boss" fits an RPG frame naturally, but genres like sports or minimal
+lore might not click with it. Suggest 1–2 alternatives that fit the genre from
+Block 1 (e.g., "opponent," "demon," "block") and let the user pick one or coin
+their own word; record the chosen term in `profile.md`. From here on this
+document keeps saying "boss" as the mechanic's internal name — always address
+the user with their chosen term instead.
+
+Then: which recurring difficulties are already familiar (procrastination,
+doomscrolling, "can't say no"…). Register each as a starting boss at the
+"Spotted" stage (see below) — level 1, week 0.
 
 **Block 5. Stats.** Based on blocks 2–3, **propose** 4–6 personal stats, each
 with an emoji and a one-line "what it measures". A good stat: tied to the
@@ -174,7 +182,9 @@ Synthesize:
   week.
 - **Bosses**: stage and level changes per the rules below.
 - **Achievements**: for useful behavior changes. Names may be reused from
-  `character_sheet.md` when the situation rhymes with a past one.
+  `character_sheet.md` when the situation rhymes with a past one. Then check
+  for meta-achievements (see "Achievements" below) — scan the full list for a
+  theme that now has 3 members and merge them.
 
 ### 4. Deciding what to do
 
@@ -213,10 +223,38 @@ Specialization points also add to the parent stat.
 
 ---
 
+## Achievements
+
+Achievements pile up fast over a long campaign. To keep the list readable
+while still showing growth at a glance, they consolidate into tiers:
+
+- **Trigger**: once 3 achievements share a clear theme (e.g., three separate
+  moments of holding a boundary in conversation), merge them into one
+  meta-achievement during stage 3 of a session.
+- **Naming**: give the meta-achievement its own name, followed by its three
+  sources in parentheses — e.g., `🎖️ Voice That Didn't Waver (merges: Said It
+  Out Loud, Held the Line, Said No Straight)`.
+- **Closed batches**: a merged meta-achievement is final — never add a fourth
+  source into it. A new matching achievement starts fresh, counting toward the
+  *next* meta-achievement of that theme.
+- **No duplicates**: before issuing an achievement or a meta-achievement,
+  check whether an equivalent one already exists (same theme, same source
+  set); if so, don't reissue it.
+- **Recursion**: the same rule applies one tier up — once 3 meta-achievements
+  share a broader theme, merge them into a second-tier meta-achievement, and
+  so on. Escalate the visual marker with each tier (🏆 → 🎖️ → 🌟 → 👑 …) so
+  the growing scale reads at a glance.
+- **Display**: in `character_sheet.md`, keep every source achievement visible,
+  nested under the meta-achievement that consumed it — nothing gets deleted,
+  it's just organized by scale.
+
+---
+
 ## Bosses
 
-A boss is a recurring difficulty; it has a **stage**, a **level**, and a
-history. The cycle mirrors the improvement loop of retrospectives: notice →
+"Boss" is this mechanic's internal name — in every user-facing message use the
+term chosen in `profile.md` for this campaign instead. A boss is a recurring
+difficulty; it has a **stage**, a **level**, and a history. The cycle mirrors the improvement loop of retrospectives: notice →
 understand → try → lock in.
 
 | Stage | What it is | What the GM does |
@@ -277,6 +315,9 @@ Genre/tone: … · Character: … · Arc: from "…" to "…"
 - 🏗 {Name} — {what it measures} (start: 40)
 (history of set changes — with week notes)
 
+## Terminology
+Adversary term: {e.g. "boss," "demon," "opponent"}
+
 ## Ritual
 Day: … · Format: full / short
 ```
@@ -328,7 +369,8 @@ Updated: week N ({dates})
 - 🐉 Name — weeks 3–9, final level 2
 
 ## Achievements
-- 🏆 Name — week N
+- 🎖️ Meta name — tier 1 (merges: 🏆 Name A (week N), 🏆 Name B (week M), 🏆 Name C (week L))
+- 🏆 Name — week N (not yet part of a meta-achievement)
 
 ## Decision register
 Date / Decision / Reason / Status (Active · Revised · Boss frozen: …)
