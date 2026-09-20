@@ -6,27 +6,36 @@ engineer known as "the Debugger" · Arc: from "reactive contractor who ships
 other people's ideas" to "builder who ships their own"
 
 ## Main quests (horizon: weeks 1–12)
-1. Launch the side project publicly — victory looks like: a landing page live,
-   10 real users signed up, one piece of honest feedback collected.
-2. Renegotiate the main client contract — victory looks like: a signed
-   agreement with a 20% higher rate or reduced scope at the same rate.
-3. Run three times a week — victory looks like: 30 runs logged by week 12,
-   any distance counts.
+1. Launch the side project publicly — a live landing page, 10 real signups,
+   one piece of feedback collected.
+2. Renegotiate the client contract — a signed rate increase or reduced scope.
+3. Establish a sustainable running routine — review actual attempts and adapt
+   around illness, workload, and recovery; missed opportunities are not penalties.
 
 ## Guiding values
-- Values: craftsmanship over speed, honesty in commitments
-- Anti-goals (never sacrifice): sleep below 7 hours, weekends with family
-- Who I want to become regardless of the outcome: someone who decides,
-  announces the decision, and doesn't relitigate it nightly
+- Values: craftsmanship, honesty in commitments.
+- Protect: sleep, weekends with family.
+- Desired stance: make a decision and revisit it when new evidence warrants it.
 
 ## Stats
-- 🛠 Craft — depth and quality of engineering work (start: 62)
-- 🚀 Shipping — moving my own things from "almost" to "public" (start: 25)
-- 🗣 Voice — asking, negotiating, saying no (start: 34)
-- 🧭 Deciding — making calls without endless re-opening (start: 40)
-- 🏃 Body — running and basic physical upkeep (start: 30)
+Symbolic campaign baselines, not measurements of health or competence.
+- 🛠 Craft — engineering understanding and application (start: 62)
+- 🚀 Shipping — sharing useful work with actual users (start: 25)
+- 🗣 Voice — asking, negotiating, setting boundaries (start: 34)
+- 🧭 Deciding — implementing decisions and revisiting them for reasons (start: 40)
 
-(set unchanged since onboarding, week 0)
+## Stat criteria (v1, effective session 1, agreed at onboarding)
+| ID | Included / positive anchors | Exclusions / negative anchors |
+|---|---|---|
+| craft | +1 apply one new technique; +2 solve a new class of problem; +3 sustained change in engineering practice | No score from praise alone. -1 skip an agreed verification causing rework; -2 repeat that behavior. Unknown context: clarify first. |
+| shipping | +1 ship a small increment; +2 share work previously held back; +3 adopt and sustain a release practice | No penalty for a week without project time, illness, or external blockers. Negative anchor, if needed, must first be agreed. |
+| voice | +1 state a concrete request or boundary; +2 do so in a difficult real-world situation; +3 sustained change in a recurring situation | Fixing the GM is not automatically an achievement. No negative delta for silence without context; agree an anchor before use. |
+| deciding | +1 carry out an agreed decision; +2 resolve a repeatedly reopened choice; +3 sustain a new decision process | New evidence justifies revision. -1 reopen without new evidence and demonstrably delay the chosen action; -2 repeat that pattern. |
+
+No criterion revisions yet. Keep earlier versions when changing a criterion.
+
+## Terminology
+Adversary term: boss.
 
 ## Ritual
-Day: Sunday evening · Format: full
+Day: Sunday evening · Format: full, skip already answered prompts.

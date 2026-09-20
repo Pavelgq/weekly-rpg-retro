@@ -1,46 +1,48 @@
-# Week 4 (Mar 16–22) · rating: 3/5
+# Week 4 (2026-03-16–2026-03-22) · rating: 3/5
 
-## Stat changes
-- 🚀 Shipping: +2 — sent the landing page draft to two friends for feedback
-  instead of polishing it for a third week; an action visibly outside the
-  comfort zone
-- 🗣 Voice: +1 — told the client the new feature won't fit this sprint, and
-  the sky did not fall
-- 🧭 Deciding: −1 — the hosting decision from week 2 got reopened twice this
-  week; a temporary slip, not yet a pattern
+Fictional example. Facts below are user reports; interpretations are labeled.
+
+## Stat changes (criteria v1)
+- 🚀 Shipping: +2 — sent the landing draft to two friends instead of polishing
+  it for another week; meets the agreed sharing-work anchor.
+- 🗣 Voice: +1 — told the client the feature would not fit this sprint.
+- 🧭 Deciding: -1 — reopened hosting twice without new evidence and delayed the
+  planned release task; fits the agreed anchor. Keeping the provider until the
+  release is the agreed adjustment, with revision allowed for new constraints.
+- 🛠 Craft: 0 — no relevant observation; total unchanged.
 
 ## Achievements
 ### 🏆 Draft Leaves the Workshop
-For the first time in this campaign, unfinished work was shown to real people
-on purpose. The feedback ("the headline is confusing") stung for an hour and
-saved a week.
+Shared unfinished work on purpose. User reports that the headline feedback was
+initially unpleasant and then useful for making a concrete revision.
 
 ## Bosses
-### 🐉 The Polish Loop — level 2 · stage: Fighting
-Experiment from week 3 ("timebox: 90 minutes on the page, then send whatever
-exists") — worked. The page went out at minute 88. The boss retreats for the
-first time in four weeks; one more clean week and it moves to Retreating.
-Hypothesis holding: polishing switches on when the fear is judgment, not
-quality — the timebox removes the room where that fear negotiates.
+### 🐉 The Polish Loop — level 2 · stage: Retreating
+Fresh report: week-3 timebox worked; the page went out at minute 88.
+Hypothesis (user-confirmed in week 3): anticipated judgment can lead to more
+polishing. This result supports the timebox tactic; it does not prove the cause.
+One confirmed observation of a week without the pattern; future unknown weeks
+will pause counting, not increase level or count as success.
+
+## Working supports
+- Sending a rough draft to two trusted friends yielded actionable feedback
+  (week 4). Useful when the page exists but polishing delays external feedback;
+  larger/public audiences have not yet been tested.
 
 ## Decision register
-Date: Mar 22
-Decision: hosting stays on the current provider until launch; revisit after
-10 users
-Reason: the reopening loop costs more than any provider difference
-Status: Active
+2026-03-22 / Keep current hosting through launch unless a new constraint appears /
+reopening without evidence delayed the release / Active.
 
-## Next week's quests
-### Main quest
-Fix the headline per the feedback and put the page live (not perfect — live).
-### Experiment (vs. The Polish Loop)
-Same 90-minute timebox, now applied to the signup email text.
-### Side quest
-Two runs. Short counts.
+## Next week's quest
+- When: Tuesday's existing project block, after opening the landing-page task.
+- Action: fix the headline using the feedback, then deploy the page.
+- Minimum success: publish the headline change; a complete redesign is unnecessary.
+- Obstacle / adaptation: if redesign ideas appear, put them in a later list;
+  if deployment is blocked, record the exact blocker and next available action.
+- Review: session 5; compare the attempted action with what actually happened.
 
 ## GM's observation
-For three weeks the character defended the workshop door; this week they opened
-it themselves and stood in the draft. The interesting shift isn't the page —
-it's that criticism arrived and was filed under "useful" rather than "verdict".
-The reopened hosting decision suggests the same fear found a quieter corridor;
-worth watching whether 🧭 Deciding becomes the Polish Loop's second mask.
+The draft left the workshop and produced useful feedback. That gives a concrete
+reason to reuse a small sharing step when polishing starts delaying release.
+The reopened hosting question is worth observing separately; there is not enough
+evidence to merge it with the Polish Loop.
